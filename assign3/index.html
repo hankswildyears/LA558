@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Herman Assignment 3</title>
+</head>
+
+<style>
+   H3 {color:red;
+	   padding:0;
+	   margin:0;
+   }
+   H5 {color:red;
+	   padding:0;
+	   margin:0;
+   }
+</style>
+
+<body>
+	<h3>Assignment 3</h3>
+	<h5>Henry Herman</h5>
+
+	<br>
+  	<a href="#" onclick="changeMap('basemapLandcover')">Basemap</a> &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="changeMap('iowaBorder')">Iowa Border</a> &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="changeMap('scenicByways')">Scenic Byways</a> &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="changeMap('canoeRoutes')">Canoe Routes</a> &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="changeMap('nativeAmericanLands')">Native American Lands</a> &nbsp;&nbsp;&nbsp;
+	 
+	</br>
+	 
+	
+	
+	<img id="myMap" src="images/basemapLandcover.png" alt="basemapLandcover" width="600" height="400">
+   
+</body>
+<script> 
+function changeMap(x) {
+	document.getElementById("myMap").src = "images/"+ x + ".png";
+}
+
+//changeMap("appleOrchards");
+
+</script>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Don't Press the Button!</p>
+
+<button onclick="myFunction()">Noooooo!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "You Suck!";
+}
+</script>
+
+</body>
+</html>
