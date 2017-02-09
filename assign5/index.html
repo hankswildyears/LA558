@@ -1,0 +1,114 @@
+<!doctype html>
+ 
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Assignment 5</title>
+
+  <link rel="stylesheet" type="text/css" href="css/assign5.css">
+  
+<body>  
+
+	<h1> Valentines Day Surprise</h1><br><br><br><br>
+	
+	<div id=radioButtons></div>
+		<h2>Will you celebrate Valentines Day?</h2>
+		
+		<input type="radio" id="answer1" name="team" value="New England Patriots">Yes<br>
+		<input type="radio" id="answer2" name="team" value="Atlanta Falcons">No<br><br>
+		
+		<button type="button" onclick="displaySuccess()">Click for Message</button><br><br><br>
+  
+		<h3 id="message" style=color:black></h3><br><br>
+		
+		<hr><br>
+  
+ <p>
+ <h1>LOVE<h1>
+   <h4> What is your valentines name? Clicking below will make them love you</h4>
+ <p>First name: <input type="text" id="firstName" value="Hillary"><br>
+Last name: <input type="text" id="lastName" value="Clinton"><br><br>
+<p></p>
+
+<p id="demo"></p>
+   
+   
+<button onclick="myFunction()">Click</button><br>
+   
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "I LOVE YOU!!!!!!";
+}
+function displayAnswer() {
+	firstName = document.getElementById("favoriteAnswer").value;
+  
+	document.getElementById("teamName").innerHTML = firstName;
+	}
+	
+	function displaySuccess() {
+	var yes = "Wow"
+	var no = "No Biggie"
+		if
+	(document.getElementById('answer1').checked)	{
+	document.getElementById('message').innerHTML = yes;
+		}else
+	if(document.getElementById('answer2').checked)	{
+	document.getElementById('message').innerHTML = no;
+		}
+	}
+
+
+
+function likeRomance() {
+	x = document.getElementById("romance").value;
+	document.getElementById("gameTime").innerHTML = x;
+	}
+
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "I LOVE YOU!!!!!!";
+}
+
+
+  
+</script>
+
+</body>
+</html>   
+
+<p id="show"> </p> 
+	
+	
+	<div id=checkBox></div>
+   
+   <hr><br>
+   
+		<h2>Do you like romance novels?</h2><br><br>
+		
+		<select id="romance" onchange="likeRomance()">
+			<option value="Select">Select</option>
+			<option value="Classic!">Only Classic Ones</option>
+			<option value="Oooo lala">Just the Sensual Ones</option>
+			<option value="Respectable">Nah</option>     
+		</select><br><br>
+	
+		<h3 id="gameTime" style=color:black></h3><br><br><br>
+	
+	
+		<hr><br>
+  
+ 
+<div id=embeddedMap></div>
+		<h2>Where does your valentine live?</h2><br><br>
+		
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3423916620773!2d72.85322085034461!3d19.18024205360853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b701648ae49f%3A0x5f26aa1cd1a28d4c!2sMalad%2C+Reserve+Bank+of+India+Staff+Quarters%2C+Raheja+Twp%2C+Malad+East%2C+Mumbai%2C+Maharashtra+400097%2C+India!5e0!3m2!1sen!2sus!4v1486598232829" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+ 
+ 	<br><br><br><br>
+
+	<h5 style=text-align:left>Henry Herman Love Doctor M.d <br>Assignment 5"</h5>
+	
+
+</body>
+</html>
