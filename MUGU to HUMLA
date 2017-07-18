@@ -7778,6 +7778,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#fa5500",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "fulcrum_id": "0c4ae30e-eb58-4ca1-aae9-81697123a162",
         "created_at": "2017-06-26 20:34:28 UTC",
         "updated_at": "2017-06-26 20:34:28 UTC",
@@ -7786,32 +7789,32 @@
         "system_created_at": "2017-06-26 20:34:29 UTC",
         "system_updated_at": "2017-06-26 20:34:29 UTC",
         "version": 1,
-        "status": null,
-        "project": null,
-        "assigned_to": null,
+        "status": "null",
+        "project": "null",
+        "assigned_to": "null",
         "latitude": 29.537918,
         "longitude": 82.076368,
-        "elevation": null,
+        "elevation": "null",
         "date": "2017-06-26",
         "time": "15:23",
         "trail_data_type": "Cultural",
-        "trail_data_type_other": null,
+        "trail_data_type_other": "null",
         "general_trail_condition": "Moderate",
         "field_notes": "A large gathering of voters from former villagers of lakeside Rara along with community leaders living in the relocated Rara village. Voting is being conducted in a culturally and ecologically rich location that is currently being preserved as a National Park. ",
-        "photos": null,
-        "photos_caption": null,
-        "photos_url": null,
-        "videos": null,
-        "videos_caption": null,
-        "videos_url": null,
-        "audio": null,
-        "audio_caption": null,
-        "audio_url": null,
-        "gps_altitude": null,
-        "gps_horizontal_accuracy": null,
-        "gps_vertical_accuracy": null,
-        "gps_speed": null,
-        "gps_course": null
+        "photos": "null",
+        "photos_caption": "null",
+        "photos_url": "null",
+        "videos": "null",
+        "videos_caption": "null",
+        "videos_url": "null",
+        "audio": "null",
+        "audio_caption": "null",
+        "audio_url": "null",
+        "gps_altitude": "null",
+        "gps_horizontal_accuracy": "null",
+        "gps_vertical_accuracy": "null",
+        "gps_speed": "null",
+        "gps_course": "null"
       },
       "geometry": {
         "type": "Point",
@@ -17472,7 +17475,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
+        "stroke": "#c4f412",
         "stroke-width": 2,
         "stroke-opacity": 1,
         "Boundry": "Mugu Humla District Line"
@@ -17493,7 +17496,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#c0ee07",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
